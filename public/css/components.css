@@ -1,0 +1,29 @@
+@import 'public/css/index.css';
+
+/* Button */
+.submitButton {
+    border: 2px solid var(--mc-red);
+    border-radius: 4px;
+
+    color: var(--mc-red);
+    background-color: var(--mc-white);
+}
+
+.submitButton:hover {
+    background-color: var(--mc-red);
+    color: white;
+}
+
+.submitButton:active {
+    color: var(--mc-red);
+    background-color: var(--mc-white);
+}
+
+/* Anchor Tag */
+.routingAnchor {
+    color: var(--mc-red);
+}
+
+.routingAnchor:hover {
+    color: var(--mc-darker-red);
+}
