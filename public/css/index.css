@@ -10,6 +10,7 @@ html, body, :root, #root {
 
   /*  Color Variables*/
   --mc-red: #DB3434;
+  --mc-darker-red: #B12929;
   --mc-white: #FAFAFA;
   --mc-light-gray: #F5F5F5;
   --mc-gray: #B5B5B5;
