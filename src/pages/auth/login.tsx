@@ -1,7 +1,7 @@
 import '../../../public/css/login.css'
 import '../../../public/css/components.css'
 import {Col, Row} from "react-bootstrap";
-import useIsMobileView from "../../hooks/isMobile.ts";
+import useMobileView from "../../hooks/useMobileView.ts";
 
 const images = [
     {src: "src/assets/images/scenic-background-light.jpg"},
@@ -12,7 +12,7 @@ function Login() {
 
     // const imageUrl = images[Math.floor(Math.random() * images.length)].src;
 
-    const isMobile = useIsMobileView();
+    const isMobile = useMobileView();
     return (
         <>
             {/*Scenic Image*/}

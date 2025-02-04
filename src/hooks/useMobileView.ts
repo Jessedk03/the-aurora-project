@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const useIsMobileView = () => {
+const useMobileView = () => {
     const [width, setWidth] = useState<number>(window.innerWidth);
 
     function handleResize() {
@@ -17,4 +17,4 @@ const useIsMobileView = () => {
     return width <= 768;
 };
 
-export default useIsMobileView;
+export default useMobileView;
