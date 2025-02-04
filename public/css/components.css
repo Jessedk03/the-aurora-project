@@ -27,3 +27,9 @@
 .routingAnchor:hover {
     color: var(--mc-darker-red);
 }
+
+/* Input field*/
+.inputField {
+    border: 1px solid var(--mc-gray);
+    border-radius: 4px;
+}
