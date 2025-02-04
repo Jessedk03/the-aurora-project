@@ -10,14 +10,14 @@ const images = [
 
 function Login() {
 
-    const imageUrl = images[Math.floor(Math.random() * images.length)].src;
+    // const imageUrl = images[Math.floor(Math.random() * images.length)].src;
 
     const isMobile = useIsMobileView();
     return (
         <>
             {/*Scenic Image*/}
             <div className="backgroundImage d-flex justify-content-center align-items-center"
-                 style={{backgroundImage: `url(${imageUrl})`}}>
+                 style={{backgroundImage: `url(${images[0].src})`}}>
 
                 {/*Login Container*/}
                 <div className={`${isMobile ? "pt-5 pb-3 px-3 w-75" : "p-5 w-50"} loginContainer`}>
